@@ -6,5 +6,5 @@ ref on using bitcoin-cli: https://docs.start9.com/0.3.5.x/user-manual/container-
 useage:
 
 1. ssh into your start9 node
-2. curl
+2. curl -O https://github.com/citizenanalog/podUTXOracle/blob/main/podUTXOracle.py
 3. python3 podUTXOracle.py
