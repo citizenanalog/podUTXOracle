@@ -10,7 +10,7 @@
 #   \______/    |__/   |__/  |__/ \______/ |__/      \_______/ \_______/|__/ \_______/  #
 #                                                                                       #
 #########################################################################################  
-#                     Version 9 - The Smooth Slider                                     
+#                     Version 8 - The Smooth Slider                                     
 
 
 
@@ -211,7 +211,7 @@ latest_price_date = latest_price_day.strftime("%Y-%m-%d")
 
 
 # tell the user that a connection has been made and state the lastest price date
-print("UTXOracle version 9")
+print("UTXOracle version 8")
 print("\nConnected to local noode at block #:\t"+str(block_count))
 print("Latest available price date:\t\t"+latest_price_date+" (pruned node ok)")
 print("Earliest available price date:\t\t2023-12-15 (requires full node)")
