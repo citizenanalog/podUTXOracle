@@ -12,6 +12,7 @@ curl -O https://github.com/citizenanalog/podUTXOracle/blob/main/podUTXOracle.py
 ```bash
 python3 podUTXOracle.py
 ```
+HTML files will be created in the working directory. Copy them back to your machine to view for now...
 
 ## Tips
 
@@ -28,4 +29,10 @@ Ensure Python 3.6 or higher is installed, as podUTXOracle.py relies on modern Py
 ```bash
 python3 --version
 ```
+## Permission
+You may need to modify block folder permissions
+```bash
+sudo chmod -R o+rx /embassy-data/package-data/volumes/bitcoind/data/main/blocks
+```
+
 
